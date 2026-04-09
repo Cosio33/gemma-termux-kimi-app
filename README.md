@@ -2,6 +2,8 @@
 
 Un asistente de inteligencia artificial **local y privado** para Termux/Android, implementando el modelo **Gemma 4-E2B-it** de Google de forma nativa. Caracterizado por su sistema de skills extensible, memoria persistente y capacidad de gestión de archivos sandbox.
 
+Este asistente fue creado con la ayuda de [Kimi AI](https://www.kimi.com/) gracias a su modelo K2.5 se genero con todas las herramientas y correcciones necesarias para que el proyecto pueda desplegarse de forma correcta.
+
 ![Versión](https://img.shields.io/badge/versión-1.0-blue)
 ![Python](https://img.shields.io/badge/python-3.8+-green)
 ![Licencia](https://img.shields.io/badge/licencia-MIT-yellow)
@@ -529,6 +531,11 @@ IP: 192.168.1.100
 - [ ] Sincronización de memoria entre dispositivos
 - [ ] Exportar/importar conversaciones
 
+### Logs al momento
+
+🪧 Se tiene un error de tiempo de espera de 5 minutos ya que el ajente usa razonamiento profundo se esta trabajando en este error. 
+
+
 ---
 
 ## 📄 Licencia
@@ -539,6 +546,10 @@ MIT License - Ver [LICENSE](LICENSE) para más detalles.
 
 ## 🙏 Agradecimientos
 
+- [Kimi AI](https://www.kimi.com/) por el modelo k2.5 con Agente autónomo es simplemente revolucionaria. La forma en que K2.5 puede planificar estrategias multi-paso, razonar sobre problemas complejos y ejecutar acciones utilizando herramientas integradas—desde búsquedas web precisas hasta el análisis de datos en tiempo real—demuestra un nivel de autonomía y proactividad que va más allá de los simples chatbots. Esa capacidad de descomponer tareas complejas, tomar decisiones informadas y mantener el contexto a lo largo de conversaciones extensas hace que realmente sienta que tengo un colaborador inteligente a mi lado, no solo una interfaz de texto.
+
+El entorno de ejecución de código en la nube con terminal es, sin duda, una de las funcionalidades más poderosas y diferenciadoras. El hecho de poder escribir, ejecutar y depurar código Python en tiempo real dentro de la conversación—con acceso a bibliotecas completas de análisis de datos, capacidad de generar visualizaciones profesionales con matplotlib, procesar imágenes y realizar cálculos complejos—elimina completamente la fricción entre la ideación y la implementación. Es como tener un Jupyter Notebook potenciado por IA, donde puedo iterar instantáneamente sobre soluciones, ver resultados visuales inmediatos y construir pipelines de datos sofisticados sin salir del flujo de trabajo conversacional.
+
 - [Google](https://ai.google.dev/gemma) por el modelo Gemma
 - [llama.cpp](https://github.com/ggerganov/llama.cpp) por el motor de inferencia
 - [Termux](https://termux.dev/) por la excelente app de terminal
@@ -546,13 +557,7 @@ MIT License - Ver [LICENSE](LICENSE) para más detalles.
 
 ---
 
-## 📞 Soporte
 
-- 🐛 **Issues**: [GitHub Issues](https://github.com/tu-repo/gemma-termux-app/issues)
-- 💬 **Discusiones**: [GitHub Discussions](https://github.com/tu-repo/gemma-termux-app/discussions)
-- 📧 **Email**: tu-email@example.com
-
----
 
 <p align="center">
   <b>Hecho con ❤️ para la comunidad de Termux</b>
