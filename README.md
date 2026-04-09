@@ -533,7 +533,7 @@ IP: 192.168.1.100
 
 ### Logs al momento
 
-🪧 Se tiene un error de tiempo de espera de 5 minutos ya que el ajente usa razonamiento profundo se esta trabajando en este error. 
+🪧 Se tiene un error de tiempo de espera de 5 minutos ya que el agente usa razonamiento profundo, se esta trabajando en este error. 
 
 
 ---
