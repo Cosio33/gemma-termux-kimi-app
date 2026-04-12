@@ -245,7 +245,7 @@ if [[ $REPLY =~ ^[Ss]$ ]]; then
     
     case $model_choice in
         1)
-            MODEL_URL="https://huggingface.co/unsloth/gemma-4-e2b-it-GGUF/resolve/main/gemma-4-e2b-it-Q4_K_M.gguf"
+            MODEL_URL="https://huggingface.co/lmstudio-community/gemma-4-E2B-it-GGUF/resolve/main/gemma-4-E2B-it-Q8_0.gguf"
             MODEL_NAME="gemma-4-e2b-it-Q4_K_M.gguf"
             MODEL_DESC="Gemma 4 E2B-IT (2B params)"
             ;;
@@ -255,14 +255,14 @@ if [[ $REPLY =~ ^[Ss]$ ]]; then
             MODEL_DESC="Gemma 4 E4B-IT (4B params) - RECOMENDADO"
             ;;
         3)
-            MODEL_URL="https://huggingface.co/unsloth/gemma-4-4b-it-GGUF/resolve/main/gemma-4-4b-it-Q4_K_M.gguf"
-            MODEL_NAME="gemma-4-4b-it-Q4_K_M.gguf"
-            MODEL_DESC="Gemma 4 4B-IT (4B params)"
+            MODEL_URL="https://huggingface.co/lmstudio-community/DeepSeek-R1-Distill-Llama-8B-GGUF/blob/main/DeepSeek-R1-Distill-Llama-8B-Q4_K_M.gguf"
+            MODEL_NAME="gDeepSeek-R1-Distill-Llama-8B-Q4_K_M.gguf"
+            MODEL_DESC="DeepSeek-R1-8B"
             ;;
         4)
-            MODEL_URL="https://huggingface.co/lmstudio-community/gemma-4-E4B-it-GGUF/resolve/main/gemma-4-E4B-it-Q5_K_M.gguf"
-            MODEL_NAME="gemma-4-E4B-it-Q5_K_M.gguf"
-            MODEL_DESC="Gemma 4 E4B-IT Q5 (4B params, alta calidad)"
+            MODEL_URL="https://huggingface.co/lmstudio-community/GLM-4-9B-0414-GGUF/blob/main/GLM-4-9B-0414-Q4_K_M.gguf"
+            MODEL_NAME="GLM-4-9B-0414-Q4_K_M.gguf"
+            MODEL_DESC="GLM-4-9B"
             ;;
         *)
             print_status "Descarga omitida"
