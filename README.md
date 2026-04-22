@@ -77,7 +77,7 @@ ln -s ~/llama.cpp/build/bin/llama-cli $PREFIX/bin/llama-cli
 
 ```bash
 # Descargar el instalador
-curl -fsSL https://raw.githubusercontent.com/tu-repo/gemma-termux-app/main/install.sh -o install.sh
+curl -fsSL https://github.com/Cosio33/gemma-termux-kimi-app/main/install.sh -o install.sh
 
 # Ejecutar instalador
 bash install.sh
@@ -101,7 +101,7 @@ pkg install llama-cpp
 
 # 4. Clonar la aplicación
 cd $HOME
-git clone https://github.com/tu-repo/gemma-termux-app.git
+git clone https://github.com/Cosio33/gemma-termux-kimi-app
 
 # 5. Crear estructura
 mkdir -p gemma-termux-app/{src,skills,sandbox,models,config}
